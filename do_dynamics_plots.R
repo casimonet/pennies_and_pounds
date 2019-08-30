@@ -1,4 +1,4 @@
-setwd('/path/to/simulations_output.RData')
+setwd('/path/to/simulations_output_examples/')
 
 
 mtexti <- function(text, side, off = 0.25,
