@@ -9,6 +9,6 @@ Script for conducting simulations. Designed to conduct simulations in batch usin
 Requires 'models.R' to run.
 Requires a seed to be set, for reproducibility of results at parameters draw step. 
 Output:
-sims_nb_x_seed_x.RData : R session containing all deSolve output, do_dynamic_plots.R can be run on those RData outputs directly to produce the dynamics plots. An example of these Rdata file is provided.
+sims_nb_x_seed_x.RData : R session containing all deSolve output, do_dynamic_plots.R can be run on those RData outputs directly to produce the dynamics plots. Four examples of these Rdata files are provided.
 out_data_x_seed_x.txt: table with all public health measures from each simulation, for each model and each type of intervention + records of parameters used, initial states (i.e. end of burn-in phase), and indication if numerical issues were detected during the run.
 
